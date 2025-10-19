@@ -1,0 +1,29 @@
+Capacity estimation: it is basicallymeans what the amount of infrastructre the system requre means bandwidth , servers, database to get all these estmation we call it is capacity estimatin:
+
+there is some formula and step to calculate the capacity estimation of the given system:
+
+Eg: we are taking google as an example to calculate the capacity:
+
+step 1: Estimate traffic
+google has on an avg 5 billion search per day globally:
+ so RPS(Request per second)=total search/ total second in one day: 5,000,000,000/86,400= 57,870
+
+ peak factor: 3* average
+ peak RPS: 3*57,870=173,610
+
+step2:=estimate resource usage per second:
+
+eg sop=50ms , RAM=10mb, Network: 0.5 mutable
+
+step3: estimate server capacity:
+suppone one google search can handle 1000 search per second:
+
+step 4:
+server need=173,610/1000=174 peak rops/perserver request
+add buffer of 30% failure and many ore so it will 225 instad of 174
+
+
+step 5: one search=0.5 mb 
+173,610*0.5=86GB 
+
+so this is the way of capacity estimation and i have solved it using by looking at one example next you know better:

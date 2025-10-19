@@ -1,0 +1,37 @@
+There are two types of scaling in the system design:
+1)Horizontal scaling:= here in horizontal scaling we are having one web servar handling multiple request if traffic grows we add more no of server means we scale out and we will do our task:
+ eg: if we are having more task to do so instaed of making one person stronger we will add more no of people for the same task or work: so out work will be get done:
+
+PROS:
+load will be distributed
+no single point of failure
+no limit on hardware means infinite scaling:
+
+CONS:
+complex architecture:
+dufficult to maintain or good knowlege will be required:
+
+2)Verical scaling: here we increase the power of same machine instaed of adding more no of Server and making that system more powerful:
+eg:we just increase the space means making a single person more powerful for the one work instad of adding more no of people:
+
+PROS:
+ONE SYSTEM JUST MAKE IT SCALE IN:
+NO COMPLEX ARCHITECTURE:
+
+CONS:
+SINGLE POINT OF FAILURE
+LIMIT IN SCALING HARDWARE
+
+***WHEN TO USE WHICH TYPE OF SCALING******
+
+1)Vertical Scaling:
+i) when you are creating a small app or you are building a startup where traffic is low:
+ii) you dont need that complex architecture:
+iii) user and budget friendly:
+
+2)Vertical Scaling:
+i)when you need complex architecture:
+ii)when you need distributed architecture means less fault tolerance
+iii)no single point of failure
+iv) when traffic is in millions
+v)eg: google, whatsapp messaging app, instagram, youtube, netflix live streaming:

@@ -1,0 +1,14 @@
+System design is all baout designing the architecture of system means bothe the hihj level design and low level design. so by combining both the feature of designing we will get complete system 
+so after following the system designing the generated system is scalabale, reusable and available and it will pass approx all parameter.
+
+*** High level design***
+it is an architectural view of design means  it gives an architecture or overview all this only:
+eg: design an instagram where HLD will be like feed service, database service and many more so this is high level design of instagram.
+
+*** Low level design****
+it is detailed design of the given system means here we write all detail code means if we cover one section like insta feed then insta feed i have to maintain the recent post should occur on top and then which database and caching all these:
+
+eg: URL SHORTNER, INSTAGRAM, TWITTER, we have to design the system and in detail all of these.
+
+so overall system design tells us that how software will lool and how its internal feature will interact with the given real word task like scaling, relaiablity, reusablity these all feature:
+
